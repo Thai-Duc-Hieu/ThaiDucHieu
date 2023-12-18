@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class baitapbuoi6 {
 	/**
 	 * @param args
+  	* bài tập buổi 6 
 	 */
 
 	public static void main(String[] args) {
