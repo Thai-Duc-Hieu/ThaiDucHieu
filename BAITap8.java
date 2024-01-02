@@ -215,6 +215,10 @@ public class BAITap8 {
 		for (int i = 0; i < n; i++) {
 			System.out.println("Nhập phần tử thứ " + (i + 1));
 			int nhapN = sc.nextInt();
+			while (nhapN < 0) {
+				System.out.println("Vui lòng nhập lại!");
+				nhapN = sc.nextInt();
+			}
 			taoMang.add(nhapN);
 
 		}
