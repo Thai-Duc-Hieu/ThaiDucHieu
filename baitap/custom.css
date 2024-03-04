@@ -1,0 +1,48 @@
+h1{
+    /* toàn bộ file h1 trong file index.html có màu này */
+    color: black;
+    border-radius: 8px;
+}
+#btn{
+    color: aqua;
+    padding: 16px;
+    background-color: blue;
+    border-radius: 8px;
+}
+/* card html */
+body{
+    background-color: blueviolet;
+    color: gray;
+}
+.card{
+    width: 350px ;
+    height: 500px ;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: white;
+}
+/* tất cả thẻ img bên trong class card */
+.card img {
+    width: 100%;
+    border-radius: 8px;
+
+}
+.cardh {
+    border-radius: 8px;
+    padding : 4px 8px ; 
+    background-color: white;
+    border : 1px   solid slategray;
+    
+}
+.btn-container{
+    text-align: center;
+    padding: 20px;
+
+}
+.btn{
+    border-radius: 8px;
+    border: 1px solid slategray;
+    padding: 4px;
+    color: rgb(21, 21, 166);
+    background-color: rgb(135, 135, 236);
+}
